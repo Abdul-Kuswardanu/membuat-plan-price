@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <Title>Latihan Hari ke 5</Title>
+        <style>
+            * {
+                margin: 10px;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body{
+                font-family: 'Times New Roman', Times, serif;
+                background-color: #f4f4f4;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+            .price-container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 25px;
+            }
+            .plan{
+                background-color: #fff;
+                border: 2px solid#ddd;
+                border-radius: 20%;
+                padding: 20px;
+                text-align: center;
+                width: 250px;
+                transition: 0.3s;
+            }
+            .plan:hover{
+                border-color: orange;
+            }
+            .plan h2{
+                font-size: 24px;
+                margin-bottom: 20px;
+            }
+            .price {
+                font-size: 36px;
+                margin-bottom: 20px;
+                color: orange;
+            }
+            .price span{
+                font-size: 20px;
+                color: #333;
+            }
+            ul{
+                list-style-type: none;
+                margin-bottom: 20px;
+            }
+            ul li{
+                margin-bottom:10px ;
+                font-size: 15px;
+            }
+            .cplan{
+                text-decoration: none;
+                background-color: orange;
+                color:#fff;
+                padding: 10px 20px;
+                border-radius: 5px;
+                transition: 0.3s;
+            }
+            .cplan :hover{
+                background-color: orange;
+            }
+            .pro{
+                border-color: orange;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="price-container">
+            <div class="plan basic">
+                <h2>Basic</h2>
+                <p class="price">$ 19 <span> /month</span></p>
+                <ul>
+                    <li>Feature 1</li>
+                    <li>Feature 2</li>
+                    <li>Feature 3</li>
+                </ul>
+                <a href="a" class="cplan">Choose Plan</a>
+            </div>
+            <div class="plan pro">
+                <h2>Pro</h2>
+                <p class="price">$ 29 <span> /month</span></p>
+                <ul>
+                    <li>Feature 1</li>
+                    <li>Feature 2</li>
+                    <li>Feature 3</li>
+                    <li>Feature 4</li>
+                </ul>
+                <a href="a" class="cplan">Choose Plan</a>
+            </div>
+            <div class="plan premium">
+                <h2>Premium</h2>
+                <p class="price">$ 39 <span> /month</span></p>
+                <ul>
+                    <li>Feature 1</li>
+                    <li>Feature 2</li>
+                    <li>Feature 3</li>
+                    <li>Feature 4</li>
+                    <li>Feature 5</li>
+                </ul>
+                <a href="a" class="cplan">Choose Plan</a>
+            </div>
+        </div>
+    </body>
